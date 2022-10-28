@@ -1,0 +1,12 @@
+name: InfiniteBuckets
+version: '${project.version}'
+main: me.mike3132.infinitebuckets.Main
+api-version: 1.19
+authors: [ Mike3132 ]
+description: Ragnarok Infinite Bucket Plugin
+website: https://www.ragnarok.icu
+commands:
+  InfiniteBuckets:
+    description: Main bucket command
+    permission: InfiniteBuckets.Command
+    aliases: ib

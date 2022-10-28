@@ -1,0 +1,14 @@
+#                                                 🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+#                                                   💻Infinite Buckets Config💻
+#                                                   🔥Coded By Mike3132🔥
+#                                                   💻Infinite Buckets Config💻
+#                                                 🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+
+#✍✍✍✍ This file handles all messages for the plugin including the prefix.✍✍✍✍
+#✍✍✍✍ You can change anything here to be whatever custom stuff you want.✍✍✍✍
+#☠☠☠☠ DO NOT CHANGE THE "Messages:" line as this will break the plugin.☠☠☠☠
+
+#Plugin prefix is sent before ALL messages in the plugin.
+Messages:
+  #Plugin prefix for all messages.
+  Prefix: '&a[&cInfinite Buckets&a] '

@@ -35,6 +35,8 @@ public final class Main extends JavaPlugin {
 
         // Command loaders
         registerInfiniteBuckets();
+
+        // Register Tab complete
         registerTabComplete();
 
         // Event Registers
@@ -53,10 +55,13 @@ public final class Main extends JavaPlugin {
     public void registerInfiniteBuckets() {
         new InfiniteBuckets();
     }
+
+    // Tab complete Register
     public void registerTabComplete() {
         new TabComplete();
     }
 
+    // File creation
     private File messages;
     private FileConfiguration config;
 

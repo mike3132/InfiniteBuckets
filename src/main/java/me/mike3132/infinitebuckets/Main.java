@@ -1,6 +1,7 @@
 package me.mike3132.infinitebuckets;
 
 import me.mike3132.infinitebuckets.CommandManager.InfiniteBuckets;
+import me.mike3132.infinitebuckets.CommandManager.TabComplete;
 import me.mike3132.infinitebuckets.EventManager.LavaBucketEvent;
 import me.mike3132.infinitebuckets.EventManager.WaterBucketEvent;
 import org.bukkit.Bukkit;
@@ -34,6 +35,7 @@ public final class Main extends JavaPlugin {
 
         // Command loaders
         registerInfiniteBuckets();
+        registerTabComplete();
 
         // Event Registers
         Bukkit.getPluginManager().registerEvents(new WaterBucketEvent(),this);
@@ -50,6 +52,9 @@ public final class Main extends JavaPlugin {
     // Command Register
     public void registerInfiniteBuckets() {
         new InfiniteBuckets();
+    }
+    public void registerTabComplete() {
+        new TabComplete();
     }
 
     private File messages;
